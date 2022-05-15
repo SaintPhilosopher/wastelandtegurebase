@@ -1,1 +1,1 @@
-@"%~dp0\..\bootstrap\node" "%~dp0\build.js"
+@"%~dp0\..\bootstrap\node.bat" "%~dp0\build.js"

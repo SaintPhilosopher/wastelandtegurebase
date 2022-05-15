@@ -39,7 +39,7 @@ GLOBAL_LIST_INIT(mining_ambience,list(
 	'sound/ambience/ambiruin5.ogg', 'sound/ambience/ambiruin6.ogg',
 	'sound/ambience/ambiruin7.ogg', 'sound/ambience/ambidanger.ogg',
 	'sound/ambience/ambidanger2.ogg', 'sound/ambience/ambimaint1.ogg',
-	'sound/ambience/ambilava1.ogg', 'sound/ambience/ambilava2.ogg', 
+	'sound/ambience/ambilava1.ogg', 'sound/ambience/ambilava2.ogg',
 	'sound/ambience/ambilava3.ogg'))
 
 GLOBAL_LIST_INIT(medical_ambience,list('sound/ambience/ambinice.ogg'))
@@ -86,6 +86,15 @@ GLOBAL_LIST_INIT(creepy_ambience,list(
 	'sound/hallucinations/turn_around2.ogg', 'sound/hallucinations/veryfar_noise.ogg',
 	'sound/hallucinations/wail.ogg'))
 
+
+GLOBAL_LIST_INIT(wasteland_ambience,list(
+
+'sound/f13ambience/music/ccc_doesntworkforfree_ambience.ogg','sound/f13ambience/music/hailcaesar_ambience.ogg',
+	'sound/f13ambience/music/invisible_ghosts_ambience.ogg',
+	'sound/f13ambience/music/mole_miners_ambience.ogg',
+	'sound/f13ambience/music/portaltothepast_ambience.ogg','sound/f13ambience/music/wind_and_the_reeds_ambience.ogg'
+
+))
 GLOBAL_LIST_INIT(ambience_assoc,list(
 	AMBIENCE_GENERIC = GLOB.generic_ambience,
 	AMBIENCE_HOLY = GLOB.holy_ambience,
@@ -99,4 +108,5 @@ GLOBAL_LIST_INIT(ambience_assoc,list(
 	AMBIENCE_MAINT = GLOB.maint_ambience,
 	AMBIENCE_AWAY = GLOB.away_ambience,
 	AMBIENCE_REEBE = GLOB.reebe_ambience,
-	AMBIENCE_CREEPY = GLOB.creepy_ambience))
+	AMBIENCE_CREEPY = GLOB.creepy_ambience,
+	WASTELAND_AMBIENCE = GLOB.wasteland_ambience))
